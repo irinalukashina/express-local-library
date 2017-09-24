@@ -13,6 +13,7 @@
     "debug": "~2.6.3",
     "express": "~4.15.2",
     "express-validator": "^4.1.1",
+    "helmet": "^3.8.1",
     "moment": "^2.18.1",
     "mongoose": "^4.11.10",
     "morgan": "~1.8.1",
