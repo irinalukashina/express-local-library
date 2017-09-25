@@ -120,7 +120,7 @@ exports.bookinstance_update_get = function(req, res) {
 		console.log('bookInstance:'+ bookInstance);
 		console.log('bookInstance_formatted date:'+ bookInstance.due_back_for_form);
 		
-    res.render('bookInstance_form_test',{title:'Update bookinstance', bookinstance: bookInstance, book: bookInstance.book, 'due': bookInstance.due_back_for_form});
+    res.render('bookInstance_form',{title:'Update bookinstance', bookinstance: bookInstance, book: bookInstance.book, 'due': bookInstance.due_back_for_form});
 	
 	});
 };
